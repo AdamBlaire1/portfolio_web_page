@@ -4,6 +4,9 @@
 /dist
 /tmp
 /out-tsc
+/img
+/fonts
+*.mp4
 # Only exists if Bazel was run
 /bazel-out
 

@@ -6,9 +6,6 @@ import {
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting
 } from '@angular/platform-browser-dynamic/testing';
-import { AppComponent } from './app/app.component';
-import { HomeComponent } from './app/components/home/home.component';
-
 declare const require: {
   context(path: string, deep?: boolean, filter?: RegExp): {
     keys(): string[];

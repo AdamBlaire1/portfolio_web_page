@@ -1,25 +1,21 @@
-<!--The content below is only a placeholder and can be replaced.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>wed-portfolio</title>
+<title>software Developer</title>
 </head>
-<body>
-  <h1>
-      {{title}}
-  </h1>
+<!--  Video button on top of the image -->
+<body style="background-color: black">
+ <h1 class="badge-pill" style="background-image: url(../assets/images/space.png);">{{title}}</h1>
   <div class="row">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-item" routerLink="/"class="btn btn-outline">Home</a>
-          <a class="navbar-item" routerLink="/about-me"class="btn btn-outline">About Me</a>
-          <a class="navbar-item" routerLink="/resume"class="btn btn-outline">Resume</a>
-          <a class="navbar-item" routerLink="/accomplishments"class="btn btn-outline">Accomplishments</a>
+    <nav class="navbar">
+        <div class="navbar-header" class="align-content-center" style="background-image: url(../assets/images/space.png);">
+          <a class="navbar-item" routerLink="/"class="btn btn-outline-light">Home</a>
+          <a class="navbar-item" routerLink="/about-me"class="btn btn-outline-light">About Me</a>
+          <a class="navbar-item" routerLink="/resume"class="btn btn-outline-light">Resume</a>
+          <a class="navbar-item" routerLink="/accomplishments"class="btn btn-outline-light">Accomplishments</a>
         </div>
-      </div>
     </nav>
   </div>
+<router-outlet></router-outlet>
 </body>
 </html>
- <router-outlet></router-outlet>

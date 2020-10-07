@@ -5,12 +5,13 @@
 </head>
 <!--  Video button on top of the image -->
 <body style="background-color: #141D33">
- <h1 class="badge-pill" style="background-image: url(../assets/images/space.png);">{{title}}<div>
+ <div class="badge-pill" style="background-image: url(../assets/images/space.png);">
           <a class="navbar-item" routerLink="/"class="btn btn-outline-light">Home</a>
           <a class="navbar-item" routerLink="/about-me"class="btn btn-outline-light">About Me</a>
           <a class="navbar-item" routerLink="/resume"class="btn btn-outline-light">Resume</a>
           <a class="navbar-item" routerLink="/accomplishments"class="btn btn-outline-light">Accomplishments</a>
-        </div></h1>
+        </div>
+        <h1 style="background-image: url(../assets/images/space.png);">{{title}}</h1>
 <router-outlet></router-outlet>
 </body>
 </html>

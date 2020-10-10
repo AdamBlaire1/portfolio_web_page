@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Full-Stack Software Developer';
+  title = 'Short-Stack Software Developer';
 }

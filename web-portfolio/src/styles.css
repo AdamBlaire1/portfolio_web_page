@@ -41,6 +41,12 @@
   --font-family-sans-serif: "Inter", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+#nav-b {
+  list-style: none;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
 
 *,
 *::before,

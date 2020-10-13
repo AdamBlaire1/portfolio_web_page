@@ -5,3 +5,9 @@ h1{
 
   font-size:65px;
 }
+#nav {
+  list-style: none;
+  position:fixed;
+  top: 0;
+  width: 100%;
+}

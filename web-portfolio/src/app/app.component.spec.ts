@@ -22,16 +22,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Software Developer'`, () => {
+  it(`should have as title 'Short-Stack Software Developer'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Software Developer');
+    expect(app.title).toEqual('Short-Stack Software Developer');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Software Developer');
+    expect(compiled.querySelector('h1').textContent).toContain('Short-Stack Software Developer');
   });
 });

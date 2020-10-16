@@ -4,16 +4,34 @@
 <title>software Developer</title>
 </head>
 <body style="background-color: #141D33">
- <div id="nav" style="background-image: url(./assets/images/space.png);">
-          <a class="navbar-item" routerLink="/"class="btn btn-outline-light">Home</a>
-          <a class="navbar-item" routerLink="/about-me"class="btn btn-outline-light">About Me</a>
-          <a class="navbar-item" routerLink="/resume"class="btn btn-outline-light">Resume</a>
-          <a class="navbar-item" routerLink="/accomplishments"class="btn btn-outline-light">Accomplishments</a>
+ <nav class="navbar navbar-expand-md sticky-top" style="background-image: url(./assets/images/space.png);">
+  <button class="navbar-toggler container text-center"  data-toggle="collapse" data-target="#collapse_target">
+    <a routerLink="/"class="btn btn-outline-light"><i class="fe-home"></i></a>
+    <a routerLink="/about-me"class="btn btn-outline-light"><i class="fe-odnoklassniki"></i></a>
+    <a routerLink="/resume"class="btn btn-outline-light"><i class="fe-briefcase"></i></a>
+    <a routerLink="/accomplishments"class="btn btn-outline-light"><i class="fe-folder"></i></a>
+  </button>
+  <div class="collapse navbar-collapse" id="collapse_target">
+  <ul class="navbar-nav">
+    <li class="navbar-item">
+          <a routerLink="/"class="btn btn-outline-light">Home</a>
+        </li>
+        <li class="navbar-item">
+          <a routerLink="/about-me"class="btn btn-outline-light">About Me</a>
+        </li>
+        <li class="navbar-item">
+          <a routerLink="/resume"class="btn btn-outline-light">Resume</a>
+      </li>
+      <li class="navbar-item">
+          <a routerLink="/accomplishments"class="btn btn-outline-light">Accomplishments</a>
+        </li>
+  </ul>
+        </div>
+ </nav>
+        <div class="container text-center">
+          <h4 class="badge-pill"  style="background-image: url(./assets/images/space.png);"><u>Adam Blaire</u> {{title}} <img src="./assets/images/pancake.png" class="img-responsive badge-pill" alt="pancake" width="300" height="236"></h4>
         </div>
         <br>
-        <div class="container text-center">>
-          <h4 class="badge-pill"  style="background-image: url(./assets/images/space.png);">{{title}} <img src="./assets/images/pancake.png" class="img-responsive badge-pill" alt="pancake" width="300" height="236">Adam Blaire</h4>
-        </div>
 <router-outlet></router-outlet>
 </body>
 </html>

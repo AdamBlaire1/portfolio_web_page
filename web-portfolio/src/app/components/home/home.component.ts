@@ -10,5 +10,10 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    var video = <HTMLVideoElement>document.getElementsByTagName("video")[0];
+    video.oncanplaythrough = function() {
+     video.muted = true;
+     video.play();
+   }
   }
 }
